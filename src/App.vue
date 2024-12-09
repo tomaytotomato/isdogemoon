@@ -18,7 +18,7 @@
 
     <!-- Credits Section -->
     <div class="credits">
-      <a href="https://github.com/tomaytotomato" target="_blank">Github</a> |
+      <a href="https://github.com/tomaytotomato/isdogemoon" target="_blank">Github</a> |
       <a href="https://tomaytotomato.com" target="_blank">tomaytotomato.com</a> |
       Dogecoin Address: <code v-text="dogecoinAddress"></code>
     </div>
