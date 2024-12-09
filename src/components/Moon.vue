@@ -32,7 +32,7 @@ export default {
   height: 10.5rem;
   position: fixed;
   border-radius: 50%;
-  background-image: url('../assets/2k_moon.jpg');
+  background-image: url('../assets/moon.jpg');
   background-repeat: repeat-x;
   background-size: 110% 100%;
   opacity: 1;
