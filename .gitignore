@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Build folders
+/dist
+/build
+
+# Vite cache
+.vite/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
+
+# Dependency lock files (optional to ignore if you prefer locking)
+# package-lock.json
+# yarn.lock
