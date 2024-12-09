@@ -64,6 +64,38 @@ export default {
   color: #00ffff;
   white-space: nowrap;
   transform: translateY(5px);
-  animation: fadeInOut 5s ease-in-out forwards;
+}
+
+@keyframes floatAndTilt {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  20% {
+    transform: translateY(-10px) rotate(2deg);
+  }
+  40% {
+    transform: translateY(0) rotate(-2deg);
+  }
+  60% {
+    transform: translateY(10px) rotate(2deg);
+  }
+  80% {
+    transform: translateY(0) rotate(-2deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 </style>

@@ -12,8 +12,7 @@
       <TipJar :dogecoinAddress="dogecoinAddress" />
       <PriceDisplay
           :price="currentPrice"
-          :message="statusMessage"
-      />
+          :message="statusMessage"/>
       <h1 class="main-title">Is Doge Moon Yet?</h1>
     </div>
 
@@ -83,7 +82,7 @@ export default {
 
     onMounted(() => {
       updatePrice()
-      setInterval(updatePrice, 30000)
+      setInterval(updatePrice, 300000)
     });
 
     return {
@@ -110,6 +109,11 @@ body {
   color: white;
   text-align: center;
   overflow-x: hidden;
+}
+
+.main-title {
+  padding-top: 50px;
+  font-size: 4rem;
 }
 
 .space-container {

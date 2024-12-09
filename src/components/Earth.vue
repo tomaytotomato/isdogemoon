@@ -6,7 +6,7 @@
       <Scenery name="mountain_3" size="large" position="78"></Scenery>
       <Scenery name="mountain_2" size="medium" position="91"></Scenery>
       <Scenery name="mountain_1" size="small" position="84"></Scenery>
-      <Scenery name="trees" size="small" position="88"></Scenery>
+      <Scenery name="trees" size="small" position="72"></Scenery>
     </div>
   </div>
 </template>
